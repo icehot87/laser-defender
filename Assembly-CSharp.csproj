@@ -63,8 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\DamageDealer.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyPathing.cs" />
+    <Compile Include="Assets\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\WaveConfig.cs" />
     <Compile Include="Assets\Scripts\shredder.cs" />
     <None Include="Assets\Space Shooter Visual Assets\license.txt" />
     <None Include="Assets\Space Shooter Visual Assets\Spritesheet\sheet.xml" />
