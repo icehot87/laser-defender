@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5980213678113561370}
   - component: {fileID: 3755323653151924065}
   - component: {fileID: 4685000772951843306}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Player laser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5182933342127074265}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{FD4A65F0-183F-9B01-6FDD-D96D34E458E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BackgroudScroller.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="45" Column="36" />
+      <File FileName="Assets/Scripts/Player.cs" Line="83" Column="27" />
+      <File FileName="Assets/Scripts/DamageDealer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/BackgroudScroller.cs" Line="7" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fa963935-b20f-402e-870a-824f883c2e3a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87fa412d-7190-4588-817c-46900f5dff13" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
