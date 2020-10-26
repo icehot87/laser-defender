@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8206815124313416513}
   - component: {fileID: 6174958885333924898}
   - component: {fileID: -351052886996681565}
+  - component: {fileID: 7342516734847527065}
+  - component: {fileID: 3339442098912712094}
   m_Layer: 9
   m_Name: Enemy1
   m_TagString: Untagged
@@ -115,6 +117,13 @@ MonoBehaviour:
   laserPrefab: {fileID: 4963678658798250770, guid: d3ced4e885411444e90e127e1494dde7,
     type: 3}
   projectileSpeed: 10
+  deathVFX: {fileID: 1364096739297669944, guid: a5e06ad72d6a241c7bcaed510105301a,
+    type: 3}
+  durationOfExplosion: 1
+  deathSound: {fileID: 8300000, guid: e6f10b62d6fbc4fe689b3bc5e6fb7af8, type: 3}
+  shootSound: {fileID: 8300000, guid: 9650725dab44f47279896af22f121671, type: 3}
+  deathSoundVolume: 0.75
+  shootSoundVolume: 0.25
 --- !u!60 &-351052886996681565
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -167,3 +176,37 @@ PolygonCollider2D:
       - {x: -0.074999996, y: -0.38}
       - {x: 0.125, y: -0.19}
       - {x: 0.145, y: -0.16}
+--- !u!50 &7342516734847527065
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998770672084379161}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &3339442098912712094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998770672084379161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985b48c26a7514a7ab9f30727dc03516, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 200
